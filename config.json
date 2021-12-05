@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://www.figma.com/file/feBKzsGeZdjRZnmyuQRNDm/Untitled?node-id\u003d341%3A5005",
+    "link": "https://maxim2021us.wixsite.com/maxim-us",
+    "text": "20171232 지은영"
+  },
+  "text": {
+    "more": "\u003ch3\u003e맥심 장수모델들의 이미지 형용사 연결망 시각화\u003c/h3\u003e\n\n\u003cp\u003e\n노드 색상 표시 - 맥심 장수모델\n노드 색상 표시 없음 - 모델 이미지 형용사 \n\u003c/p\u003e\n\n\u003cp\u003e\nSource(모델)-\u003eTarget(형용사)\nWeight : 형용사의 빈도수\nEdge 연결: Directed\nNode 크기: Degree \n\u003c/p\u003e\n\n",
+    "intro": "맥심의 광고 장수모델들의 형용사 연결망 시각화했습니다. ",
+    "title": "맥심의 광고 장수모델들의 형용사 연결망 시각화"
+  },
+  "legend": {
+    "edgeLabel": "광고모델과 이미지에 따른 형용사 관계",
+    "colorLabel": "근접중심성",
+    "nodeLabel": "광고 모델,형용사"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Closeness Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
